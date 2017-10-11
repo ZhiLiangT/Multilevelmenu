@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView 
+        android:id="@+id/item_venue_detail_child_play"
+        android:src="@mipmap/icon_bofang"
+	    android:layout_width="20dp"
+	    android:layout_marginLeft="35dp"
+	    android:layout_height="45dp" />
+    <TextView 
+        android:id="@+id/item_venue_detail_child_tv"
+        android:text="第一章 什么是视听初级教程"
+        android:layout_width="match_parent"
+        android:textColor="#333333"
+        android:paddingLeft="10dp"
+        android:layout_toRightOf="@+id/item_venue_detail_child_play"
+        android:gravity="center_vertical"
+        android:textSize="14sp"
+        android:layout_height="45dp"/>
+	<TextView 
+	    android:id="@+id/item_venue_detail_child_time"
+	    android:paddingRight="10dp"
+	    android:text="05:30"
+	    android:gravity="center_vertical"
+	    android:layout_alignParentRight="true"
+	    android:layout_width="wrap_content"
+	    android:layout_height="45dp"/>
+</RelativeLayout>

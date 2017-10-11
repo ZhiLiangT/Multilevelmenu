@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <TextView 
+        android:id="@+id/item_venue_detail_parent_tv"
+        android:text="第一章 什么是视听初级教程"
+        android:layout_width="match_parent"
+        android:textColor="#333333"
+        android:paddingLeft="30dp"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:layout_height="45dp"/>
+	<ImageView 
+	    android:id="@+id/item_venue_detail_parent_img"
+	    android:src="@mipmap/icon_gengduo"
+	    android:layout_alignParentRight="true"
+	    android:padding="10dp"
+	    android:layout_width="45dp"
+	    android:layout_height="45dp"/>
+</RelativeLayout>
